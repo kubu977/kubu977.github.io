@@ -2,10 +2,11 @@
 <html>
 	<head>
 		<title>Gry komputerowe</title>
-		<link rel="icon" href="images/icon.png">
+		<link rel="icon" href="../images/icon.png">
 		<meta charset="UTF-8">
 		<meta name="description" content="Strona o Minecraft.">
-		<meta name="keywords" content="Fortnite, Minecraft, Overwatch, Gry">
+		<meta name="keywords" content="Fortnite, Minecraft, Wiedźmin 3, Gry">
+		<meta http-equiv="refresh" content="10">
 
 		<link rel="stylesheet" href="minecraft.css">
 	</head>
@@ -13,11 +14,61 @@
 		<header>
 			<nav>		
 				<a class="home" href="../index.html">Strona Główna</a>
-				<a href="minecraft.html">Minecraft</a>				
+				<a href="../minecraft/minecraft.html">Minecraft</a>				
 				<a href="../fortnite/fortnite.html">Fortnite</a>	
-				<a href="../overwatch/overwatch.html">Overwatch 2</a>	
-			</nav>
-	
-		</header>
+				<a href="../witcher/witcher.html">Wiedźmin 3</a>	
+			</nav>	
+		</header>                       
+		<div class="description">
+			<div class="image">
+			  	<img src="../images/minecraft/minecraftphoto.png">
+			</div>
+			<div class="desc">
+			  	<p>	Minecraft to gra typu sandbox, która umożliwia graczom budowę i eksplorację wirtualnych światów złożonych z bloków. Została stworzona przez Markusa "Notcha" Perssona, a później zakupiona przez Microsoft w 2014 roku. Gra została oficjalnie wydana w 2011 roku i od tego czasu stała się jedną z najpopularniejszych i wpływowych gier wideo na świecie. Główne cechy gry Minecraft to otwarty świat, składający się z różnych krajobrazów, generowanych proceduralnie podczas eksploracji przez graczy, oraz bloki reprezentujące różne materiały, takie jak ziemia, drewno, kamień i rudy, które można zbierać i używać do konstruowania struktur i modyfikowania środowiska. Gra posiada również system rzemieślniczy, umożliwiający tworzenie narzędzi, broni i przedmiotów. Minecraft oferuje różne tryby, w tym tryb Przetrwania, gdzie gracze muszą zbierać zasoby i przetrwać przeciwko potworom, oraz tryb Kreatywności, gdzie gracze mają nieograniczony dostęp do zasobów i swobodnie budują bez obaw o przetrwanie.</p>
+			</div>
+		</div>
+		<section id="images" class="images">
+			<div class="title">
+				<hr class="br">
+				<h1>GALERIA</h1>
+				<hr class="br">
+			</div>
+			<div>
+				<div class="content">
+					<div class="photo">
+						<div class="content">							
+							<img src="../images/minecraft/galleryone.jpg">							                      
+						</div>
+					</div>
+					<div class="photo">                    
+						<div class="content">						   
+							<img src="../images/minecraft/gallerytwo.jpg">                      
+						</div>
+					</div>
+					<div class="photo">                    
+						<div class="content">
+							<img src="../images/minecraft/gallerythree.jpg">						                         
+						</div>
+					</div>
+					<div class="photo">
+						<div class="content">							
+							<img src="../images/minecraft/galleryfour.jpg">							                      
+						</div>
+					</div>
+					<div class="photo">
+						<div class="content">							
+							<img src="../images/minecraft/galleryfive.jpg">							                      
+						</div>
+					</div>					
+				</div>
+			</div>
+		</section>
+		<footer>			
+        	<p id="demo"></p>
+			<script>
+			const d = new Date();
+			document.getElementById("demo").innerHTML = d;
+			</script>
+		</footer>
 	</body>
 </html>

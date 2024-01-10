@@ -1,11 +1,12 @@
-<!doctype  html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Gry komputerowe</title>
 		<link rel="icon" href="images/icon.png">
 		<meta charset="UTF-8">
 		<meta name="description" content="Strona o grach komputerowych.">
-		<meta name="keywords" content="Fortnite, Minecraft, Overwatch, Gry">
+		<meta name="keywords" content="Fortnite, Minecraft, Wiedźmin, Gry">
+		<meta http-equiv="refresh" content="10">
 
 		<link rel="stylesheet" href="style.css">
 	</head>
@@ -15,23 +16,57 @@
 				<a class="home" href="index.html">Strona Główna</a>
 				<a href="minecraft/minecraft.html">Minecraft</a>				
 				<a href="fortnite/fortnite.html">Fortnite</a>	
-				<a href="overwatch/overwatch.html">Overwatch 2</a>	
+				<a href="witcher/witcher.html">Wiedźmin 3</a>	
 			</nav>
-		</header>
-		<section id="games" class="games">
+		</header>		
+        <section id="games" class="games">
+			<div class="title">
+			<hr class="br">
+            <h1>GRY</h1>
+			<hr class="br">
+			</div>			
+            <div class="content">
+                <div class="game">
+                    <div class="content">
+                        <a href="minecraft/minecraft.html">
+							<img src="images/minecraft/minecraftphoto.png">
+						</a>                       
+                    </div>
+                </div>
+                <div class="game">                    
+                    <div class="content">
+                       <a href="fortnite/fortnite.html">
+						<img src="images/fortnite/fortnitephoto.jpg">
+					   </a>                       
+                    </div>
+                </div>
+				<div class="game">                    
+                    <div class="content">
+                       <a href="witcher/witcher.html">
+						<img src="images/witcher/witcherphoto.png">
+					   </a>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="description" class="description">
 			<div class="title">
 				<hr class="br">
-				<p>GRY</p>
+				<h1>CO TO SĄ GRY?</h1>
 				<hr class="br">
-			</div>	
-				<div class="content">
-					<div class="game">
-						<a href="https://github.com/MichixYT/GlitchCode" class="titletc">Minecraft</a>
-						<div class="content">
-							<p class="description">					
-						</div>
-					</div>
-				</div>							
-		</section>	
+			</div>
+			<div class="short-description">
+				<p>Gry komputerowe to interaktywne formy rozrywki, dostępne na różnych platformach, takich jak komputery osobiste, konsole do gier, smartfony czy tablety. Zapewniają graczom możliwość aktywnego uczestnictwa w wydarzeniach poprzez sterowanie postaciami, podejmowanie decyzji i wpływanie na rozwój historii. Oferują zróżnicowane formy rozgrywki, obejmujące zarówno proste zręcznościówki, jak i rozbudowane symulacje strategiczne. Imponująca grafika i dźwięk tworzą wspaniałe wrażenia wizualne i dźwiękowe, sprzyjając immersion – wczuwaniu się gracza w świat gry.
+
+				Gry komputerowe posiadają także społeczny wymiar, umożliwiając graczom współpracę, rywalizację w trybach wieloosobowych oraz tworzenie społeczności online. Dostępne są na rynku w licznych gatunkach, takich jak gry fabularne, strzelanki, strategie czy symulatory, co sprawia, że są atrakcyjne dla szerokiej grupy odbiorców. Ich rozbudowane światy wirtualne, dynamiczne rozgrywki i różnorodność gatunków przyczyniają się do ogromnej popularności gier komputerowych na całym świecie. To nie tylko forma rozrywki, ale również platforma, na której gracze rozwijają umiejętności, nawiązują nowe znajomości i czerpią radość z interaktywnej przygody.</p>
+			</div>			
+		</section>
+		<footer>			
+        	<p id="demo"></p>
+			<script>
+			const d = new Date();
+			document.getElementById("demo").innerHTML = d;
+			</script>
+		</footer>
 	</body>
 </html>

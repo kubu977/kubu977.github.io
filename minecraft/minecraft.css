@@ -7,7 +7,6 @@ html{
 body {
 	background-color: #393e46;
 	margin: 0;
-    
 }
 
 header{
@@ -25,8 +24,7 @@ header{
 a{
     font-family: 'Nunito', sans-serif;
     border: none;
-    color: #DDDDDD;
-    text-align: center;  
+    color: #DDDDDD; 
 	text-decoration: none;
     font-size: 15px;     
     cursor: pointer;
@@ -40,4 +38,62 @@ a:hover{
 .home{
 	margin: 30px;
 	font-size: 18px;
+}
+
+.description{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+img {
+    max-width: 100%;
+    max-height:100%;
+  }
+
+  .desc {
+    font-size: 18px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+  }
+
+img {
+    margin: 15 0 0 0;
+    width: 400px; 
+    border-radius: 7.5px;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.images .title{
+    font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+.images .br{
+    width: 300px;
+}
+
+.images .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	padding: 50px;
+    margin-top: 0px;
+}
+
+footer{
+	background-color: #222831;
+	color: #FFFFFF;
+    align-items: right;
+    overflow: hidden;
 }
